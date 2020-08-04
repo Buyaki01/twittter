@@ -69,7 +69,7 @@ class TweeetsController < ApplicationController
       @tweeet = Tweeet.find(params[:id])
     end
 
-    # Only allow a list of trusted parameters through.
+    # Never trust parameters from the scary internet, only allow the white list through.
     def tweeet_params
       params.require(:tweeet).permit(:tweeet)
     end
