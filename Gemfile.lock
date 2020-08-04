@@ -229,7 +229,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  better_errors (~> 2.4)
+  better_errors (~> 2.7, >= 2.7.1)
   binding_of_caller
   bulma-rails (~> 0.6.1)
   byebug
